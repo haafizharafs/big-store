@@ -30,6 +30,8 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     {{-- <link href="{{ asset('build/assets/argon-dashboard-bef17899.css') }}" rel="stylesheet" /> --}}
+    {{-- <link rel="stylesheet" href="resources/scss/argon-dashboard.scss">
+    <script src="resources/js/app.js"></script> --}}
     @vite(['resources/scss/argon-dashboard.scss', 'resources/js/app.js'])
     <style>
         .navbar-vertical.navbar-expand-xs .navbar-collapse {
