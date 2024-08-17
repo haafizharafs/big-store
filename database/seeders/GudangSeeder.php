@@ -21,7 +21,7 @@ class GudangSeeder extends Seeder
                 ],
                 [
                     'nama'=>'28',
-                    'alamat'=>'28 Oktober',
+                    'alamat'=>'Jln. 28 Oktober',
                 ],
             ]
         );
