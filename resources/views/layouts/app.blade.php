@@ -29,10 +29,12 @@
     <!-- Sweet Alert 2 -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    {{-- <link href="{{ asset('build/assets/argon-dashboard-bef17899.css') }}" rel="stylesheet" /> --}}
-    {{-- <link rel="stylesheet" href="resources/scss/argon-dashboard.scss">
-    <script src="resources/js/app.js"></script> --}}
-    @vite(['resources/scss/argon-dashboard.scss', 'resources/js/app.js'])
+    <script src="resources/js/app.js"></script>
+
+    {{-- @vite(['resources/scss/argon-dashboard.scss', 'resources/js/app.js']) --}}
+    <link href="{{ asset('build/assets/argon-dashboard-COrKIVlF.css') }}" rel="stylesheet" />
+    <script src="{{ asset('build/assets/app-DuwvNmRM.js') }}"></script>
+    <script src="{{ asset('build/assets/app-l0sNRNKZ.js') }}"></script>
     <style>
         .navbar-vertical.navbar-expand-xs .navbar-collapse {
             height: calc(100% - 32px - 24px - 24px - 1px) !important;
